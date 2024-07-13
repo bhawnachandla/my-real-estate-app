@@ -1,0 +1,60 @@
+.c-conatiner{
+    justify-content: space-between;
+    
+}
+.c-conatiner>div{
+    flex: 1;
+}
+
+.c-right{
+    width: 100%;
+}
+
+.c-left{
+    gap: 0.5rem;
+}
+.image-container img{
+    height: 100%;
+}
+
+.contactModes{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.contactModes .row{
+    gap: 1.5rem;
+}
+
+.mode {
+    width: 13rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    gap: 1rem;
+    transition: all 300ms ease-in;
+  }
+  
+  .mode:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust with your desired shadow */
+  }
+  
+  .mode .button {
+    width: 100%;
+    background-color: var(--lightblue); /* Make sure var(--lightblue) is defined */
+    color: var(--blue); /* Make sure var(--blue) is defined */
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 300ms ease, transform 300ms ease;
+  }
+  
+  .mode .button:hover {
+    background: var(--blue-gradient); /* Make sure var(--blue-gradient) is defined */
+    color: white;
+    transform: scale(0.8);
+  }
+  
+  .mode .detail .primaryText {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  

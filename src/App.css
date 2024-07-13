@@ -1,0 +1,25 @@
+/* index.css */
+
+/* Adjust .App styling as needed */
+.App {
+    position: relative;
+    overflow-x: hidden;
+    /* Add your preferred background for .App */
+    background-color: #f8f8f8; /* Example: light gray background */
+  }
+  
+  /* Adjust other styles based on component needs */
+  /* .App > :nth-child(1) {
+    background: black;
+    position: relative;
+  } */
+  
+  .white-gradient {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.5222);
+    filter: blur(100px);
+    border-radius: 100px;
+  }
+  
